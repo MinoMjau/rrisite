@@ -309,7 +309,7 @@ section {
 }
 
 @media (max-width: 768px) {
-    .nav-links {
+    .navbar-links {
         display: none;
     }
     
@@ -327,4 +327,7 @@ section {
 	.game-image {
 		height: 100px;
 	}
+
+	.big-icon {
+		font-size: 7rem;
 }
