@@ -307,3 +307,24 @@ section {
 .learn-more-btn:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .aboutus-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 300px) {
+	.game-image {
+		height: 100px;
+	}
+}
