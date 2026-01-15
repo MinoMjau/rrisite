@@ -323,14 +323,13 @@ section {
     }
 
 	.hero-content img {
-        width: 7rem;
+        width: 5rem;
     }
 }
 
 @media (max-width: 300px) {
 	.game-image {
-		height: 100px;
-		width: 100px
+		width: 10rem;
 	}
 
 	.big-icon {
