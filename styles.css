@@ -308,30 +308,3 @@ section {
     transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-    .navbar-links {
-        display: none;
-    }
-    
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    
-    .aboutus-layout {
-        flex-direction: column;
-        text-align: center;
-    }
-
-	.hero-content img {
-        width: 5rem;
-    }
-}
-
-@media (max-width: 300px) {
-	.game-image {
-		width: 10rem;
-	}
-
-	.big-icon {
-		font-size: 7rem;
-}
