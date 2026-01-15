@@ -321,11 +321,16 @@ section {
         flex-direction: column;
         text-align: center;
     }
+
+	.hero-content img {
+        width: 7rem;
+    }
 }
 
 @media (max-width: 300px) {
 	.game-image {
 		height: 100px;
+		width: 100px
 	}
 
 	.big-icon {
